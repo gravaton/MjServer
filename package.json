@@ -4,7 +4,7 @@
   "description": "Mahjong game server",
   "main": "server.js",
   "dependencies": {
-    "connect": "~3.3.5"
+    "express": "~4.12.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,8 +12,5 @@
     "start": "node server.js"
   },
   "author": "David Bresnick",
-  "license": "BSD-2-Clause",
-  "dependencies": {
-    "connect": "3.3.5"
-  }
+  "license": "BSD-2-Clause"
 }

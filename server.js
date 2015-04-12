@@ -1,9 +1,11 @@
-var connect = require('connect');
-var http = require('http');
+var express = require('express');
 
-var app = connect();
+var app = express();
 
 var lastreq = '';
+
+// Set the app's port
+app.set('port', 80);
 
 app.use('/test', function(req,res) {
 	if(req.method == "POST") {
@@ -35,4 +37,6 @@ app.use(function(req,res) {
 	}
 });
 
-http.createServer(app).listen(80);
+app.listen(app.get('port'),function() {
+	console.log('Express server listening on port ' + app.get('port'));
+});
