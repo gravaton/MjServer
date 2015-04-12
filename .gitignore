@@ -1,2 +1,5 @@
 # Vagrant stuff
 /.vagrant
+
+# node.js modules
+node_modules

@@ -1,0 +1,19 @@
+{
+  "name": "MjServer",
+  "version": "0.0.1",
+  "description": "Mahjong game server",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "~3.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "David Bresnick",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "connect": "3.3.5"
+  }
+}
